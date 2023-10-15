@@ -1,32 +1,37 @@
 body {
     font-family: 'Lato', sans-serif;
     margin: 0;
+
 }
-header {
+
+.flexbox {
     display: flex;
     align-items: center;
     background-color: rgba(229, 84, 115, 0.10);
     padding-left: 240px;
     padding-right: 240px;
+    padding-top: 50px;
 }
 
 .half-width {
     width: 50%;
 }
+
 .half-width h1 {
     color: #272727;
     font-family: Lato;
     font-size: 80px;
     font-style: normal;
     font-weight: 800;
-  margin: 0;
-  padding: 0;
-  line-height: normal;
+    margin: 0;
+    padding: 0;
+    line-height: normal;
 }
 
 .red-btn {
     padding: 20px 43px;
-    background-color: #E55473;;
+    background-color: #E55473;
+    ;
     color: #FFF;
     font-family: Lato;
     font-size: 20px;
@@ -48,4 +53,15 @@ p {
     font-weight: 400;
     line-height: 30px;
     /* 166.667% */
+}
+.center-alinged {
+    text-align: center;
+}
+#hot-deals-img {
+    width: 318px;
+    height: 420px;
+    flex-shrink: 0;
+}
+.pink-text {
+    color: #E55473
 }
