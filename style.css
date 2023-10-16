@@ -65,3 +65,19 @@ p {
 .pink-text {
     color: #E55473
 }
+.insta-section {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-container div {
+    width: 342px;
+    height: 396px;
+}
+.img-container div img {
+    width: 90%;
+}
