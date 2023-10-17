@@ -90,6 +90,29 @@ p {
     border-radius: 300px 300px 0px 0px;
     background-color: rgba(167, 33, 98, 0.15);
 }
+.extra-flexbox {
+    display: flex;
+    justify-content: center;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+}
+.left-flower {
+    width: 570px;
+    background-image: url("Flower Asset/bn5.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 50px;
+}
+.right-flower {
+    width: 570px;
+    background-image: url("Flower Asset/bn6.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
 #hot-deals-img {
     width: 318px;
     height: 420px;
