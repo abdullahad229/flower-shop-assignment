@@ -4,13 +4,19 @@ body {
 
 }
 
+header {
+    height: 850px;
+    margin-bottom: 150px;
+}
+
 .flexbox {
     display: flex;
     align-items: center;
     background-color: rgba(229, 84, 115, 0.10);
-    padding-left: 240px;
-    padding-right: 240px;
+    padding-left: 200px;
+    padding-right: 200px;
     padding-top: 50px;
+    padding-right: 97px;
 }
 
 .half-width {
@@ -31,7 +37,6 @@ body {
 .red-btn {
     padding: 20px 43px;
     background-color: #E55473;
-    ;
     color: #FFF;
     font-family: Lato;
     font-size: 20px;
@@ -43,6 +48,9 @@ body {
 
 .half-width img {
     width: 100%;
+    position: relative;
+    top: 26px;
+    height: 800px;
 }
 
 p {
@@ -52,7 +60,7 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-    /* 166.667% */
+    
 }
 
 .center-alinged {
@@ -63,10 +71,23 @@ p {
     display: flex;
     justify-content: center;
     align-items: baseline;
+    margin-bottom: 120px;
 }
+
 .featured-section div {
     margin-left: 24px;
 }
+
+.heading-style {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
 .bg-pink {
     padding-top: 100px;
     padding-left: 60px;
@@ -83,6 +104,7 @@ p {
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
 }
+
 .bg-gray {
     padding-top: 50px;
     padding-left: 60px;
@@ -90,12 +112,12 @@ p {
     border-radius: 300px 300px 0px 0px;
     background-color: rgba(167, 33, 98, 0.15);
 }
+
 .extra-flexbox {
     display: flex;
     justify-content: center;
-    /* margin-left: 100px;
-    margin-right: 100px; */
 }
+
 .left-flower {
     width: 570px;
     background-image: url("Flower Asset/bn5.jpg");
@@ -103,8 +125,10 @@ p {
     text-align: center;
     padding-top: 80px;
     padding-bottom: 80px;
-    padding-left: 50px;
+    padding-left: 100px;
+    margin-left: 100px;
 }
+
 .right-flower {
     width: 570px;
     background-image: url("Flower Asset/bn6.jpg");
@@ -112,11 +136,16 @@ p {
     text-align: center;
     padding-top: 80px;
     padding-bottom: 80px;
+    padding-left: 100px;
 }
+
 #hot-deals-img {
     width: 318px;
-    height: 420px;
+    height: 400px;
     flex-shrink: 0;
+    position: relative;
+    bottom: 65px;
+    padding-left: 90px;
 }
 
 .pink-text {
@@ -124,8 +153,9 @@ p {
 }
 
 .insta-section {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-top: 120px;
 }
 
 .img-container {
@@ -153,7 +183,7 @@ p {
 }
 
 .form-style {
-    padding-top: 230px;
+    padding-top: 160px;
 
 }
 
