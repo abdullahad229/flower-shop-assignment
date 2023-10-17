@@ -54,30 +54,57 @@ p {
     line-height: 30px;
     /* 166.667% */
 }
+
 .center-alinged {
     text-align: center;
 }
+
 #hot-deals-img {
     width: 318px;
     height: 420px;
     flex-shrink: 0;
 }
+
 .pink-text {
     color: #E55473
 }
+
 .insta-section {
     padding-left: 20%;
     padding-right: 20%;
 }
+
 .img-container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .img-container div {
     width: 342px;
     height: 396px;
 }
+
 .img-container div img {
     width: 90%;
+}
+
+.bg-img {
+    margin: auto;
+    width: 1240px;
+    height: 449px;
+    border-radius: 8px;
+    background-image: url("Flower Asset/Rectangle 9.png");
+    background-repeat: no-repeat;
+}
+
+.form-style {
+   padding-top: 250px;
+
+}
+
+.input-fld {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
 }
